@@ -73,6 +73,16 @@ In interactive mode the prompt accepts:
 - `unary_add`
 - `non_halting_right`
 
+**Included `.tm` files**
+These `.tm` files are provided in the repository alongside the simulator and can be loaded with `--file`:
+- `binary_incrementer.tm`
+- `equal_abcs_full.tm`
+- `palindrome_ab_hash.tm`
+- `palindrome_nosep_full.tm`
+- `string_duplicate.tm`
+- `string_reversal_full.tm`
+- `unary_add_full.tm`
+
 **.tm file format (very brief)**
 - Header lines (order doesn't matter) include:
   - `states: q0,q1,...`
